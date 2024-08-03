@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsup src/types/index.ts --format cjs,esm --dts",
     "lint": "tsc",
-    "changeset": "changeset publish --access=public"
+    "changeset": "changeset publish --access public"
   },
   "repository": {
     "type": "git",

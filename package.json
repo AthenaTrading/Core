@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "shared data, types, utils and functions for athena project",
   "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/types/index.ts --format cjs,esm --dts"
+    "build": "tsup src/types/index.ts --format cjs,esm --dts",
+    "lint": "tsc"
   },
   "repository": {
     "type": "git",

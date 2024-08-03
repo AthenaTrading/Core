@@ -1,0 +1,32 @@
+{
+  "name": "@athena/core",
+  "version": "1.0.0",
+  "description": "shared data, types, utils and functions for athena project",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup src/types/index.ts --format cjs,esm --dts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AthenaTrading/Core.git"
+  },
+  "keywords": [
+    "athena",
+    "core",
+    "utils",
+    "shared"
+  ],
+  "author": "Shmuel Robinov",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AthenaTrading/Core/issues"
+  },
+  "homepage": "https://github.com/AthenaTrading/Core#readme",
+  "dependencies": {
+    "@changesets/cli": "^2.27.7"
+  },
+  "devDependencies": {
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}

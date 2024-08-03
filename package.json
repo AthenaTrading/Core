@@ -1,5 +1,5 @@
 {
-  "name": "@athena/core",
+  "name": "@athena-project/core",
   "version": "1.0.1",
   "description": "shared data, types, utils and functions for athena project",
   "main": "dist/index.js",

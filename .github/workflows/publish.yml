@@ -21,6 +21,9 @@ jobs:
             uses: changesets/action@v1
             with:
               publish: npm run build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            
           # - run: npm run build
     
     # publish:

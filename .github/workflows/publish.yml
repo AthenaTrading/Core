@@ -27,6 +27,10 @@ jobs:
           with:
             node-version: '18'
         - run: npm ci
-        - run: npm publish --access=public
+        - name: Create Release Pull request or publish
+          id: changesets
+          uses: changesets/action@v1
+        # - run: npm ci
+        # - run: npm publish --access=public
         #   env:
             # NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

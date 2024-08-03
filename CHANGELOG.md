@@ -1,5 +1,11 @@
 # @athena/core
 
+## 1.1.1
+
+### Patch Changes
+
+- 9f91844: add the source
+
 ## 1.1.0
 
 ### Minor Changes
